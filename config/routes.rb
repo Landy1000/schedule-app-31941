@@ -4,6 +4,6 @@ Rails.application.routes.draw do
       registrations: 'v1/auth/registrations'
   }
   end
-
-  
+  resources :users, only: [:index]
+  resources :rooms, only: [:index]
 end
