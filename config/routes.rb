@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   }
   end
   resources :users, only: [:index]
-  resources :rooms, only: [:index]
+  resources :rooms, only: [:index, :create]
 end
