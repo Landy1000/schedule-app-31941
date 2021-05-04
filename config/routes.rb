@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   }
   end
   resources :users, only: [:index]
-  resources :rooms, only: [:index, :create]
+  resources :rooms, only: [:index, :create, :destroy] do
+    resources :schedules, only: [:index, :create, :destroy]
+  end
 end

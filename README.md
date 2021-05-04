@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+概要
+予定を合わせるときに使うアプリ
+ルームを作成して、スケジュールを登録し、ルームメイトと予定が被っている日時を
 
-Things you may want to cover:
+制作背景
 
-* Ruby version
+工夫したポイント
+将来的にはReact Nativeを用いてハイブリッドアプリとして実装する
 
-* System dependencies
+開発環境
+フロントエンド React(reducks)
+バックエンド Ruby on Rails
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
